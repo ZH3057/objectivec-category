@@ -25,6 +25,7 @@
 		BF3C744A20C0EE7900A2CBB6 /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C744020C0EE7900A2CBB6 /* NSObject+Category.m */; };
 		BF3C744E20C0F0D000A2CBB6 /* UIGestureRecognizer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C744D20C0F0D000A2CBB6 /* UIGestureRecognizer+Category.m */; };
 		BF735DE6213A4DE600DD77BE /* UIViewController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF735DE5213A4DE600DD77BE /* UIViewController+Category.m */; };
+		BF7E92DC213A62CD00D13B9A /* NSTimer+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7E92DB213A62CD00D13B9A /* NSTimer+Category.m */; };
 		BFA4635C20EC6AD000D4FBB9 /* UICollectionViewFlowLayout+SectionHeaderPin.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA4635B20EC6AD000D4FBB9 /* UICollectionViewFlowLayout+SectionHeaderPin.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,8 @@
 		BF3C744D20C0F0D000A2CBB6 /* UIGestureRecognizer+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Category.m"; sourceTree = "<group>"; };
 		BF735DE4213A4DE600DD77BE /* UIViewController+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Category.h"; sourceTree = "<group>"; };
 		BF735DE5213A4DE600DD77BE /* UIViewController+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Category.m"; sourceTree = "<group>"; };
+		BF7E92DA213A62CD00D13B9A /* NSTimer+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Category.h"; sourceTree = "<group>"; };
+		BF7E92DB213A62CD00D13B9A /* NSTimer+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Category.m"; sourceTree = "<group>"; };
 		BFA4635A20EC6AD000D4FBB9 /* UICollectionViewFlowLayout+SectionHeaderPin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewFlowLayout+SectionHeaderPin.h"; sourceTree = "<group>"; };
 		BFA4635B20EC6AD000D4FBB9 /* UICollectionViewFlowLayout+SectionHeaderPin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewFlowLayout+SectionHeaderPin.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +172,7 @@
 		BF3C742520C0EE7900A2CBB6 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				BF7E92D9213A62B900D13B9A /* NStimer */,
 				BF735DE3213A4DBA00DD77BE /* UIViewController */,
 				BFA4635920EC6A9000D4FBB9 /* UICollectionViewFlowLayout */,
 				BF3C744B20C0F0A000A2CBB6 /* UIGestureRecognizer */,
@@ -272,6 +276,15 @@
 				BF735DE5213A4DE600DD77BE /* UIViewController+Category.m */,
 			);
 			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		BF7E92D9213A62B900D13B9A /* NStimer */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E92DA213A62CD00D13B9A /* NSTimer+Category.h */,
+				BF7E92DB213A62CD00D13B9A /* NSTimer+Category.m */,
+			);
+			path = NStimer;
 			sourceTree = "<group>";
 		};
 		BFA4635920EC6A9000D4FBB9 /* UICollectionViewFlowLayout */ = {
@@ -422,6 +435,7 @@
 				BF3C73F820C0EDE600A2CBB6 /* ViewController.m in Sources */,
 				BF3C740320C0EDEA00A2CBB6 /* main.m in Sources */,
 				BF3C744920C0EE7900A2CBB6 /* NSArray+Category.m in Sources */,
+				BF7E92DC213A62CD00D13B9A /* NSTimer+Category.m in Sources */,
 				BF3C744E20C0F0D000A2CBB6 /* UIGestureRecognizer+Category.m in Sources */,
 				BF3C73F520C0EDE600A2CBB6 /* AppDelegate.m in Sources */,
 				BF3C744220C0EE7900A2CBB6 /* UIImage+Category.m in Sources */,
