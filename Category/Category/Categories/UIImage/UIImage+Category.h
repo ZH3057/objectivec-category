@@ -27,3 +27,10 @@
 + (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size cornerRadius:(CGFloat)cornerRadius;
 
 @end
+
+@interface UIImage (Tint)
+
+- (UIImage *) imageWithTintColor:(UIColor *)tintColor;
+- (UIImage *) imageWithGradientTintColor:(UIColor *)tintColor;
+
+@end
